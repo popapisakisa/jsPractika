@@ -1,3 +1,4 @@
+"use strict"
 const numerOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", '');//промпт вопроса
 const numerOfFilmsDB = { // создание объекта 
     count: numerOfFilms, // переменной для ответа
